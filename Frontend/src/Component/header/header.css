@@ -1,0 +1,24 @@
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+}
+.logo{
+    height: 50px;
+    /* border: 2px solid rebeccapurple; */
+    object-fit: contain;
+    padding-bottom: 10px;
+}
+.title{
+    width:500px;
+    height: 50px;
+    text-align: center;
+    /* border: 2px solid rebeccapurple; */
+}
+.profile{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%
+}

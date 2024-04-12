@@ -1,3 +1,8 @@
+.main{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 .grid-container {
 
     display: grid;
@@ -7,35 +12,29 @@
       "header header"
       "navbar content"
       "footer footer";
-
-    /* Ensure the grid fills the height of the viewport */
-    /* background-color: antiquewhite; */
   }
   
   .header {
     grid-area: header;
     background-color: #41c784;
     color: white;
-    padding: 20px;
+    height: 100px;
+    width: 100vw;
   }
   
   .navbar {
     grid-area: navbar;
-    /* background-color: #ddd; */
-    /* padding: 20px; */
+    height: 80vh;
   }
   
   .content {
     grid-area: content;
-    /* background-color: #f4f4f4; */
-    /* padding: 20px; */
   }
   
   .footer {
     grid-area: footer;
     background-color:  #41c784;
     color: white;
-    height: 60px;
-    /* padding: 20px; */
+    height: 82px;
   }
   
