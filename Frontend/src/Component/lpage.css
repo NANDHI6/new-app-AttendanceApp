@@ -1,0 +1,41 @@
+.grid-container {
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header header"
+      "navbar content"
+      "footer footer";
+
+    /* Ensure the grid fills the height of the viewport */
+    /* background-color: antiquewhite; */
+  }
+  
+  .header {
+    grid-area: header;
+    background-color: #41c784;
+    color: white;
+    padding: 20px;
+  }
+  
+  .navbar {
+    grid-area: navbar;
+    /* background-color: #ddd; */
+    /* padding: 20px; */
+  }
+  
+  .content {
+    grid-area: content;
+    /* background-color: #f4f4f4; */
+    /* padding: 20px; */
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color:  #41c784;
+    color: white;
+    height: 60px;
+    /* padding: 20px; */
+  }
+  
